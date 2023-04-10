@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Character Designer</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="from-area">
+            <div class="Kopf"><text></text>
+            </div>
+            <div class="Logo"><img
+                src="Logo.png"
+                alt="title-img"
+                class="title-img"/>
+            </div>
+           <div class="DNDK"> <h1>DND klassen und rassen G uide</h1></div>
+            <div class="button1"><button onclick="toggleBereich()">Rassen</button></div>
+            <div class="MeinBereich">         
+            <div id="meinBereich">
+                           <div class="Zwerge">
+                            <h2>Zwerge</h2>
+                            <p>Zwerge sind kleine Kreaturen deswegen sind sie alle kleiner als 1,5 Meter</p>
+                            <p>Trotz ihrer kleinen größe sind sie sehr Stark. Sie sind außerdem äußerst gute Schmiede und Mienenarbeiter</p>
+                            <p>Zwerge sind sehr Loyal und können bis zu 400 Jahre alt werden</p>
+                            
+                            <p>Da sie recht kurze Beine haben ist ihr Lauf speed 25 Fuß</p>
+                            <p>Als Minenarbeiter muss an im Dunkeln gut sehen können deswegen haben sie eine 60 Fuß weite Dark vision</p>
+                            <p>Sie sind ebenfalls Giftresistent. Sie sprechen Common und Zwergisch</p>
+                            <p>Sie habenen einen COstetutions Bonus von +2.</p>
+                            <p>und eine Proficiency mit der Streitaxt Handaxt, Hammer und Kriegshammer</p>
+                            <p>Sie haben ebenfalls eine Proficiency Artisan Tools nach ihrer Wahl Wahl</p>
+                            <p></p>
+                            <h2>Subrassen</h2> 
+                            <h2>Hügelzwerge</h2>
+                            <p>Sie haben die Statt Bonis Wisdom +1, HP +1</p>
+                            <h2>Bergzwerge</h2>
+                            <p>Sie Haben die Bonis Strength+2 und Proficiency mit Leichter und mittlerer Rüstung</p>
+                            <div class="Logo"><img
+                                src="Zwerginnen.png"
+                                alt="title-img"
+                                class="title-img"/>
+                            </div>
+                            <h3>Elf</h3>
+                            <p>Elfen sind im vergleich zum menschen in etwa gleich groß und können 1,5-1,8 meter groß werden</p>
+                            <p>Sie können bis zu 750 Jahren alt werden</p>
+                            <p>Sie haben Dexterity +2</p>
+                            <p>Ihr Speed ist 30 Fuß</p>
+                            <p>Proficiency im Preceptions skill</p>
+                            <p>Kann nicht eingeschläfert werden mit Magie</p>
+                            <h2>Subrassen</h2> 
+                            <h2>High Elf</h2>
+                            <p>1 Cantrip</p>
+                            <p>1 Extra sprache deiner Wahl</p>
+                            <p>Intelligenz +1</p>
+                            <p>Proficiency mit Langschwertern, kurz Schwertern, lang Bögen und Kurzbögen </p>
+                            <h2>Wald Elfen</h2>
+                            <p>Wisdom +1</p>
+                            <p>Proficiency mit Langschwertern, kurz Schwertern, lang Bögen und Kurzbögen & Walkspeed 35 Fuß</p>
+                            <h2>Dunkle Elfen</h2>
+                            <p>Charisma +1, Surperior Dark Vision 120 Fuß weit und Sunlight sesitivity</p>
+                            <p>Dancing light Cantrips Proficiency mit Degen Kurzschwertern und Armbrüsten</p>
+                            <h2>Halbling</h2>
+                            <p>Maximal 1 Meter groß, Sie Passen sich ihrer Umgebung an sie sind klein und Friedlich</p>
+                            <p>Dexterity +2, Sie werden maximal bis zu 20 jahre alt</p>
+                            <p>Speed 25 Fuß. If D20 attack roll == net 1 -> reroll Sie sind Mutig</p>
+                            <p>Sprachen Common und Halblingisch</p>
+                            <p>Leicht Fuß Halbling,Charisma+1, Natürliche Stealth skills, Stout Halbling, Constetution,Resistent gegen gift</p>
+                            <h2>Dragonborns</h2>
+                            <p>Strength +2, Charisma +1, Alter=um die 80 jahre warden die Alt ,Ca 1,80 groß</p>
+                            <p>Speed 30 Fuß, Je nach vorfahren ist man Stärker öder Schwächör Ich kann Feuer Spucken</p>
+                            <p>Sprachen: Common und Dragonisch</p>
+                            <div class="Logo"><img
+                                src="Dragonborn.png"
+                                alt="title-img"
+                                class="title-img"/>
+                            </div>
+                            <h2>Gnome</h2>
+                            <p>Intelligenz +2, Zwischen 350-500 Jahre alt, Constitution +1, Proficiency mit Artisan Tools </p>
+                            <h2>Halb Elfen</h2>
+                            <p>Charisma +2, Einen Ability score +1, sie werden 1,5-1,8 Meter groß</p>
+                            <p>Speed 30 Fuß, Dark Vision 60 Fuß weit, No einschläferung durch magie, Proficency in 2 skills deiner Wahl</p>
+                            <p>Languages: Common Elfisch und eine extra spreche der Wahl</p>
+                            <h2>Halb Ork</h2>
+                            <p>Strength +2 , Constetution +1, Bis zu 75 Jahre alt </p>
+                            <p>1,5-2 Meter groß, Speed 30 Fuß, Darkvision 60 Fuß, Proficency einschüchternd</p>
+                            <p>Sprachen: Commen und ORK</p>
+                            <h2>Tiefling </h2>
+                            <p>Alter ca 90 Jahre, 1,5-1,8 Meter groß, Speed 30 Fuß</p>
+                            <p>Darkvision 60 Fuß, Feuer Resistent, Thaumaturgy cantrip</p>
+                            <p>Sprachen common und Infernal</p>
+                           
+                        </div> 
+                          </div>
+
+                          <div class="button2"><button onclick="toggleBereich2()">Klassen</button></div>
+            <div class="MeinBereich2">         
+            <div id="meinBereich2">
+                <div class="Klassen"></div>            
+                <H2>BARBARIAN</H2>
+                <p>As a barbarian, you gain a lot of hit points and proficiency in many weapons. You have proficiency in light and medium armor, shields, and two skills from a list including Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival. </p>
+                <p>You can choose between a greataxe or any other martial melee weapon and two handaxes or any other simple weapon as your starting equipment. You also receive an explorer's pack and four javelins. Barbarians use d12 hit dice and gain more hit points with each level-up.</p>
+           <h2>BARD</h2>
+           <p>As a bard, you gain hit points of 1d8 per level, proficiency in light armor, simple weapons, hand crossbows, longswords, rapiers, and shortswords. You get to choose any three skills, have proficiency in three musical instruments of your choice, and get saving throws in Dexterity and Charisma. </p>
+           <p>Your starting equipment includes a rapier, diplomat's pack or an entertainer's pack, a lute or any other musical instrument, leather armor, and a dagger. You also learn to cast spells, starting with two cantrips of your choice from the bard spell list, and can learn more cantrips and spells as you level up.</p>
+           
+           <h2>CLERIC</h2>
+           <p>The cleric class in D&D grants you the following features: hit points, proficiency in armor, weapons, and shields, and the ability to cast spells from the cleric spell list. At level 1, you have 8 hit points plus your Constitution modifier. </p>
+           <p>You also start with equipment like a mace or warhammer, scale mail or leather armor, and a light crossbow or any simple weapon. Additionally, you can choose two skills from History, Insight, Medicine, Persuasion, and Religion</p>
+           <p>As a cleric, your spellcasting ability is Wisdom, and you can cast spells from the cleric spell list, including cantrips and ritual spells. You use a holy symbol as a spellcasting focus.</p>
+           
+           <h2>DRUID</h2>
+                <p>Druids gain hit points equal to ld8 per level, starting with 8 + Constitution modifier at level 1. They are proficient in light and medium armor, shields (excluding metal ones), and several weapons. They also have proficiency with the herbalism kit and two skills</p>
+                <p>Druids know Druidic, a secret language, and can use it to leave hidden messages. They can cast spells using their Wisdom as the spellcasting ability and can prepare a number of spells equal to their Wisdom modifier plus their druid level. </p>
+                <p>Druids start with two cantrips and a certain number of spell slots which they can regain after a long rest.</p>
+            
+           <h2>FIGHTER:</h2>
+                <p>Fighters are one of the most versatile and reliable classes in Dungeons and Dragons. At first level, they have ten hit points and can use all armor and shields. They're also proficient in simple and martial weapons, as well as two skills from a list of eight. </p>
+                <p>They can choose from a variety of equipment options, including chain mail or leather armor, a longbow or light crossbow, and either a dungeoneer's or explorer's pack. At third level, they choose a martial archetype, such as the Champion, Battle Master, or Eldritch Knight, which grants them various abilities throughout their career. </p>
+                <p>Fighters can specialize in a particular fighting style, such as archery or dueling, and can improve their ability scores as they level up. Additionally, they gain Second Wind, Action Surge, and Indomitable abilities, which make them formidable opponents in combat</p>
+
+            <h2>MONK</h2>
+                <p>Monks are a D&D character class that specializes in unarmed combat and mystical energy known as Ki. At level 1, they have 8 + Constitution modifier hit points and proficiency in simple weapons, shortswords, and one type of artisan's tools or musical instrument</p>
+                <p>Additionally, they gain the Unarmored Defense feature, which sets their armor class to 10 + Dexterity modifier + Wisdom modifier. At level 2, they gain the Martial Arts and Ki features, which allows them to make unarmed strikes, use Dexterity instead of Strength for attack and damage rolls, and harness ki energy to perform abilities such as Flurry of Blows, Patient Defense, and Step of the Wind</p>
+            <h2>PALADIN</h2>
+            <p>As a paladin, you have various class features to gain. At level 2, you need to pick a fighting style from the options given, which cannot be repeated later. You also have 10 + your Constitution modifier hit points at level 1, which increases with each level-up. Wearing armor provides you with a bonus of +1 to AC, and you gain proficiency in all armor and shields</p>
+                <p>You can choose two skills from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion, and get a priest's or an explorer's pack, a holy symbol, and some weapons as your initial equipment. Furthermore, you can cast spells and use Lay on Hands.</p>
+            <h2>RANGER</h2>
+               <p>Rangers gain several class features. They have Hit Dice of ldlO per ranger level, starting with 10+ Constitution modifier at level one. Rangers are proficient in light armor, medium armor, shields, simple weapons, and martial weapons. They can choose three skills from a list of eight.</p>
+               <p>Rangers begin with equipment, such as scale mail or leather armor, two shortswords or two simple melee weapons, a dungeoneer's pack or an explorer's pack, and a longbow with 20 arrows. They can choose a favored enemy and terrain type, each granting specific benefits. Rangers can also specialize in fighting styles, gain spellcasting abilities, and learn spells from the ranger spell list</p>
+            <h2>ROGUE</h2>
+               <p>Rogues have a Hit Dice of ld8 per level, proficiency in light armor, simple weapons, and thieves' tools. They can choose four skills from a list of 12 and have Dexterity and Intelligence as saving throws. At 2nd level, they gain Cunning Action, allowing them to use bonus actions to take the Dash, Disengage, or Hide action</p>
+                <p>Rogues also choose an archetype at 3rd level, with Thief, Assassin, and Arcane Trickster being the options. At 5th level, they gain Uncanny Dodge, and at 7th level, they gain Evasion. Reliable Talent is earned at 11th level, and Blind Sense at 14th level. Finally, they gain Slippery Mind at 15th level.</p>
+            <h2>SORCERER</h2>
+                <p>Sorcerers gain various class features. They have a Hit Dice of 1d6 per sorcerer level and start with 6+Constitution modifier hit points at level 1. Sorcerers are proficient in daggers, darts, slings, quarterstaffs, and light crossbows, and they can use an arcane focus as a spellcasting focus. </p>
+                <p>They also get to choose two skills from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion. Sorcerers know four cantrips from the sorcerer spell list and two 1st-level spells of their choice. They can cast spells using spell slots that recharge after a long rest. Sorcerers have a sorcerous origin, granting additional features. At level 2, sorcerers gain access to sorcery points, which allow them to create spell slots or gain additional sorcery points.</p>
+            <h2>WARLOCK</h2>
+                <p>Warlocks gain class features including hit points, light armor, simple weapons, and two skills. They start with a light crossbow or a simple weapon, a component pouch or an arcane focus, and a scholar's pack or a dungeoneer's pack. At level 1, warlocks select one of three otherworldly patrons: the Archfey, the Fiend, or the Great Old One, which grants features at 1st, 6th, 10th, and 14th level. They gain cantrips and spells that are cast using spell slots, which they regain after a short or long rest. Warlocks use Charisma for spellcasting and eldritch invocations to gain magical abilities. At 3rd level, they gain a pact boon.</p>
+            <h2>WIZARD</h2>   
+                <p>The wizard class in D&D gains hit points of 1d6 per level, with 6 hit points and the constitution modifier granted at first level. Proficiencies include various weapons and saving throws such as intelligence and wisdom. Wizards start with a spellbook containing six 1st-level wizard spells of their choice, along with three cantrips from the wizard spell list.</p>
+                <p>Wizards can add spells they find to their spellbook by deciphering and copying them, which takes 2 hours and costs 50gp per level of the spell. Losing their spellbook would require the wizard to transcribe their prepared spells into a new one, which may be a different book.</p>
+
+
+            </div>
+        </div>
+                        </div>  
+                          <script src="app.js"></script>
+                          <link rel="stylesheet" href="style (1).css">
+</body>
+</html>

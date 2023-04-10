@@ -1,0 +1,71 @@
+.wrapper{
+  background-color: rgb(247, 206, 118);
+    display: flex;
+  justify-content: center;
+}
+body{
+  background-color: rgb(247, 206, 118);
+ justify-content: center;
+}
+
+.from-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#meinBereich {
+    display: flex;
+    background-color: rgb(247, 206, 118);
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .button1{
+    display: flex;
+    justify-content: center;  
+    margin-top: 10px;
+  }
+  .Zwerge{
+    
+    justify-content: center;
+  }
+  .DNDK{
+    text-align: center;
+    justify-content: center;
+  }
+  .Logo{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    img {
+      width: 50%;
+    }
+  }
+
+  #meinBereich2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(247, 206, 118);
+    padding: 10px;
+    
+  }
+  .button2{
+    display: flex;
+    justify-content: center;  
+    margin-top: 10px;
+    
+  }
+  .Klassen{
+    display: flex;
+    
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    img {
+      width: 50%;
+    }
+  }
